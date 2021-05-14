@@ -1,11 +1,10 @@
 import React from 'react';
-import Hover from './components/Hover';
+import List from './components/List';
 
 const App = () => {
   return (
     <div>
-      <Hover firstColor={'green'} secondColor={'red'} />
-      <Hover firstColor={'blue'} secondColor={'orange'} />
+      <List />
     </div>
   );
 };
