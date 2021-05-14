@@ -8,7 +8,7 @@
 
   Hover effect.
 
-- <b>useScroll(useInfinitePagination)</b>
+- <b>[useScroll(useInfinitePagination)](https://developer.mozilla.org/ru/docs/Web/API/Intersection_Observer_API)</b>
 
   For example, we parse a list of tasks. Hundreds of tasks are loaded to us at once. But we don't want this behavior, we want to do dynamic pagination. That is, we scroll through, reach the end and the next batch is loaded for us.
 
