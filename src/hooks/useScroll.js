@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-export default function useHover(parentRef, childRef, callback) {
+export default function useScroll(parentRef, childRef, callback) {
   const observer = useRef();
 
   useEffect(() => {
