@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 
 import useDebounce from '../hooks/useDebounce';
 
-const List = () => {
+const Debounce = () => {
   const [value, setValue] = useState('');
   const debouncedCallback = useDebounce(search, 500);
 
@@ -24,4 +24,4 @@ const List = () => {
   );
 };
 
-export default List;
+export default Debounce;
