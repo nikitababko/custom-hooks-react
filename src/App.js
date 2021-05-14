@@ -1,17 +1,11 @@
-import React, { useState } from 'react';
-import useInput from './hooks/useInput';
+import React from 'react';
+import Hover from './components/Hover';
 
 const App = () => {
-  const username = useInput('');
-  const password = useInput('');
-
   return (
     <div>
-      <input {...username} type="text" placeholder="Username" />
-      <input {...password} type="text" placeholder="Password" />
-      <button onClick={() => console.log(username.value, password.value)}>
-        Click me
-      </button>
+      <Hover firstColor={'green'} secondColor={'red'} />
+      <Hover firstColor={'blue'} secondColor={'orange'} />
     </div>
   );
 };
