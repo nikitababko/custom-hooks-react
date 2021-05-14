@@ -1,10 +1,10 @@
 import React from 'react';
-import List from './components/List';
+import Debounce from './components/Debounce';
 
 const App = () => {
   return (
     <div>
-      <List />
+      <Debounce />
     </div>
   );
 };
