@@ -1,7 +1,7 @@
 import React from 'react';
 import useInput from '../hooks/useInput';
 
-const App = () => {
+const Input = () => {
   const username = useInput('');
   const password = useInput('');
 
@@ -16,4 +16,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Input;
