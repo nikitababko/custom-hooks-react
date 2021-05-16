@@ -1,7 +1,27 @@
 {
-  "name": "custom-hooks-react",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@nikitababko/react-custom-hooks",
+  "author": {
+    "name": "Nikita Babko",
+    "email": "niki.babko@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react custom hooks",
+    "custom"
+  ],
+  "description": "Custom react hooks",
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikitababko/react-custom-hooks"
+  },
+  "bugs": {
+    "url": "https://github.com/nikitababko/react-custom-hooks/issues"
+  },
+  "homepage": "https://github.com/nikitababko/react-custom-hooks",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
