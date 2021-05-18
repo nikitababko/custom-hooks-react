@@ -1,10 +1,10 @@
 import React from 'react';
-import Request from './components/Request';
+import Input from './Examples/Input';
 
 const App = () => {
   return (
     <div>
-      <Request />
+      <Input />
     </div>
   );
 };
