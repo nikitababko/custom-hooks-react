@@ -1,10 +1,10 @@
 import React from 'react';
-import Input from './Examples/Input';
+import { Modal } from './Examples';
 
 const App = () => {
   return (
     <div>
-      <Input />
+      <Modal />
     </div>
   );
 };
