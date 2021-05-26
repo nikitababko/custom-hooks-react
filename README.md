@@ -26,3 +26,11 @@
 - <b>useRequest</b>
 
   Request logic.
+
+- <b>useModal</b>
+
+  Pop-up window
+
+- <b>useValidation</b>
+
+  Form validation
