@@ -1,10 +1,10 @@
 import React from 'react';
-import { Modal } from './Examples';
+import { FocusRef, Modal } from './Examples';
 
 const App = () => {
   return (
     <div>
-      <Modal />
+      <FocusRef />
     </div>
   );
 };

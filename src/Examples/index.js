@@ -4,3 +4,4 @@ export { default as Input } from './Input';
 export { default as List } from './List';
 export { default as Modal } from './Modal';
 export { default as Request } from './Request';
+export { default as FocusRef } from './FocusRef';
