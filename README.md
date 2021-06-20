@@ -1,5 +1,15 @@
 # React custom hooks
 
+### Install
+
+`npm install @nikitababko/react-custom-hooks`
+
+or
+
+`yarn add @nikitababko/react-custom-hooks`
+
+### Description
+
 - <b>useInput</b>
 
   Managed component logic.
@@ -34,3 +44,7 @@
 - <b>useValidation</b>
 
   Form validation
+
+- <b>useFocus</b>
+
+  Focus on element
