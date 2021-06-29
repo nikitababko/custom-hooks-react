@@ -1,4 +1,4 @@
-# React custom hooks
+# [React custom hooks](https://www.npmjs.com/package/@nikitababko/react-custom-hooks)
 
 ### Install
 
@@ -24,7 +24,7 @@ or
 
 - <b>useDebounce</b>
 
-  We write something in the "input" field and a search request is sent to us - "give me a task with such and such a name."
+  We write something in the "input" field and a search request is sent to us - "give me a task with such and such a name".
   And we want this request to be sent not when the button is clicked,
   but the moment we enter something.
 
